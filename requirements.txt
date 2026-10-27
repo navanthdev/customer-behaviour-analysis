@@ -1,0 +1,9 @@
+fastapi 
+uvicorn 
+sqlalchemy 
+pymysql 
+pandas 
+jupyter
+numpy
+matplot
+seaborn
