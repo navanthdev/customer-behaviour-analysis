@@ -2,8 +2,6 @@
 
 An interactive Power BI dashboard that turns customer shopping data into clear answers about **who buys, what they buy, and how much they spend**. It is designed to be simple, readable and ready for business users.
 
-![Dashboard Preview](screenshots/customer_behaviour_dashboard_simple.jpg)
-
 ---
 
 ## Table of Contents
