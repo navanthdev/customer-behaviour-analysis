@@ -2,24 +2,25 @@
 
 An interactive Power BI dashboard that turns customer shopping data into clear answers about **who buys, what they buy, and how much they spend**. It is designed to be simple, readable and ready for business users.
 
-![Dashboard Preview](screenshots\customer_behaviour_dashboard_simple.jpg)
+![Dashboard Preview](screenshots/customer_behaviour_dashboard_simple.jpg)
 
 ---
 
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
-2. [Business Questions](#business-questions)
-3. [Key Metrics](#key-metrics)
-4. [Dashboard Features](#dashboard-features)
-5. [Key Insights](#key-insights)
-6. [Data Model](#data-model)
-7. [DAX Measures](#dax-measures)
-8. [Getting Started](#getting-started)
-9. [Project Structure](#project-structure)
-10. [Design Guidelines](#design-guidelines)
-11. [Future Enhancements](#future-enhancements)
-12. [Author](#author)
+2. [Dashboard](#dashboard)
+3. [Business Questions](#business-questions)
+4. [Key Metrics](#key-metrics)
+5. [Dashboard Features](#dashboard-features)
+6. [Key Insights](#key-insights)
+7. [Data Model](#data-model)
+8. [DAX Measures](#dax-measures)
+9. [Getting Started](#getting-started)
+10. [Project Structure](#project-structure)
+11. [Design Guidelines](#design-guidelines)
+12. [Future Enhancements](#future-enhancements)
+13. [Author](#author)
 
 ---
 
@@ -28,6 +29,14 @@ An interactive Power BI dashboard that turns customer shopping data into clear a
 This project analyses customer purchasing behaviour across product categories, age groups and subscription status. It gives decision-makers a single page to monitor performance and spot opportunities without needing technical skills.
 
 **Tools used:** Power BI Desktop, DAX, Power Query
+
+---
+
+## Dashboard
+
+The report is a single-page Power BI dashboard. Filters sit at the top, KPI cards summarise customers, rating and spend, and the charts below break revenue and sales down by category, age group and subscription status.
+
+![Customer Behaviour Dashboard](screenshots/customer_behaviour_dashboard_simple.jpg)
 
 ---
 
@@ -164,13 +173,15 @@ SWITCH (
 ## Project Structure
 
 ```
-customer-behaviour-dashboard/
+customer-behaviour-analysis/
 ├── README.md
-├── customer_behaviour_dashboard_simple.jpg   # Dashboard preview / layout reference
-├── CustomerBehaviour_Theme.json              # Power BI theme file
-├── data/
-│   └── customer_data.csv                     # Source dataset (add your own)
-└── CustomerBehaviour.pbix                    # Power BI report file
+├── app/
+│   └── main.py
+├── notebook/
+│   └── analysis.ipynb
+├── screenshots/
+│   └── customer_behaviour_dashboard_simple.jpg   # Dashboard preview
+└── requirements.txt
 ```
 
 ---
